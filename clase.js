@@ -1,6 +1,8 @@
 const fs = require('fs');
 
-
+module.exports = class Container{
+    constructor(archivo){
+        this.archivo = archivo;
     }
 
     async create(){
